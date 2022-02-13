@@ -1,0 +1,18 @@
+POST http://localhost:8080/trips HTTP/1.1
+content-type: application/json
+
+{
+    "username": "crusader@travelers.com",
+    "title": "Christmas 2020",
+    "description": "Christmas at grandmother's house",
+    "country": "CANADA",
+    "date": "2020-12-25"
+}
+
+###
+
+GET http://localhost:8080/trips?username=crusader@travelers.com HTTP/1.1
+
+###
+
+GET http://localhost:8080/trips/recommend HTTP/1.1
