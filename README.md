@@ -15,8 +15,9 @@ PS: I know that the database credentials should be put on env vars or secrets.
 | GET    | `/trips/recommend`        | Recommends a country to visit |
 | POST   | `/trips`                  | Saves a new trip record       |
 
+_Paylod for the save method_
+
 ```json
-// body payload to save a new trip
 {
   "username": "crusader@travelers.com",
   "title": "Christmas 2020",
